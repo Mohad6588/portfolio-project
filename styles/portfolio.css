@@ -119,9 +119,9 @@ p {
   }
 
   #description {
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 2;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: 1.5;
   }
   #project-section p:first-child {
     padding: 25px 0 5px;
