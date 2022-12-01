@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <title>Front-end developer - Mohadeseh Moradian</title>
+    <meta
+      name="description"
+      content="Mohadeseh is a front-end developer based in Iran."
+    />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -31,12 +35,36 @@
     ></script>
   </head>
   <body>
+    <nav>
+      <div class="header d-flex justify-content-between">
+        <a href="/"
+          ><div class="header-profile d-flex">
+            <img
+              class="profile-photo rounded-5"
+              src="/images/Profile.jpg"
+              alt="profile photo"
+            />
+            <p class="ps-3 d-none d-md-block">Mohadeseh Moradian</p>
+          </div></a
+        >
+        <ul>
+          <li><a href="/" title="Homepage" class="active">Home</a></li>
+          <li><a href="/about.html" title="About Mohadeseh">About</a></li>
+          <li><a href="/work.html" title="Mohadeseh's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Mohadeseh">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <div class="hero">
       <p>👋Hey, I'm</p>
       <h1>Mohadeseh</h1>
       <p id="description">a front-end developer based in Iran</p>
       <p class="mb-5">and this is my online portfolio...</p>
-      <div><a class="button" href="#">More about me</a></div>
+      <div>
+        <a class="button" href="/about.html" title="More about Mohadeseh"
+          >More about me</a
+        >
+      </div>
     </div>
     <section id="project-section">
       <p>These are some of my projects</p>
@@ -46,36 +74,39 @@
             <img
               class="img-fluid rounded mb-5"
               src="/images/landing-page1.JPG"
-              alt=""
+              alt="landing-page preview"
             />
           </div>
           <div class="col project-description">
             <h2>Landing Page</h2>
             <p calss="d-none mb-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos odio, nemo molestias porro expedita repellat quasi id
-              dolores deleniti quia corrupti sequi cupiditate adipisci
-              voluptate? Et voluptas architecto iusto? Nobis?
+              I entered the world of front-end development by gaining some
+              knowledge in HTML, CSS, and JavaScript. I used my knowledge of
+              these languages, along with my new skills in VS Code, to build a
+              landing page about Gaz. The page utilizes JavaScript functions to
+              create user interaction.
             </p>
-            <a href="#" class="button-outline">Learn more</a>
+            <a href="/work.html" class="button-outline">Learn more</a>
           </div>
         </div>
         <div class="row">
           <div class="col project-description">
             <h2>Weather App</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos odio, nemo molestias porro expedita repellat quasi id
-              dolores deleniti quia corrupti sequi cupiditate adipisci
-              voluptate? Et voluptas architecto iusto? Nobis?
+              I built a Vanilla JavaScript weather app in SheCodes Plus, an
+              advanced 8-week JavaScript coding workshop. Building upon my
+              previously-gained knowledge, I also became skilled in Bootstrap,
+              API's, real-life development workflow, hosting, and advanced
+              JavaScript. I combined all of these skills to create a
+              fully-functioning weather app.
             </p>
-            <a href="#" class="button-outline">Learn more</a>
+            <a href="/work.html" class="button-outline">Learn more</a>
           </div>
           <div class="col d-none d-lg-block">
             <img
               class="img-fluid rounded mb-5"
               src="/images/weather1.JPG"
-              alt=""
+              alt="weather app preview"
             />
           </div>
         </div>
@@ -84,21 +115,65 @@
             <img
               class="img-fluid rounded mb-5"
               src="/images/survey-form.jpg"
-              alt=""
+              alt="survey-form preview"
             />
           </div>
           <div class="col project-description">
             <h2>Survey Form</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Dignissimos odio, nemo molestias porro expedita repellat quasi id
-              dolores deleniti quia corrupti sequi cupiditate adipisci
-              voluptate? Et voluptas architecto iusto? Nobis?
+              I used my knowledge of HTML and CSS, along with my skills in VS
+              Code, to build a Survey Form about a Web development platform.
             </p>
-            <a href="#" class="button-outline">Learn more</a>
+            <a href="/work.html" class="button-outline">Learn more</a>
           </div>
         </div>
       </div>
     </section>
+    <footer class="container">
+      <div
+        class="contact-box d-block d-md-flex justify-content-between mb-5 rounded-3"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">
+            Let's work together and i'll help you by all my best
+          </p>
+        </div>
+        <div>
+          <a class="button mt-4" href="/about.html" title="More about Mohadeseh"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:m.moradi6588@gmail.com"
+          class="email-link"
+          title="Email-link"
+          >m.moradi6588@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/Mohad6588" title="Github" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/moadese8892"
+          title="Instagram"
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.twitter.com/mohadeseh"
+          title="Twitter"
+          target="_blank"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+      </div>
+      <div class="text-center mt-5 fw-semibold">
+        ✌️ This website was coded by Mohadeseh Moradian, and is
+        <a href="">open-sourced</a>
+      </div>
+    </footer>
   </body>
 </html>
